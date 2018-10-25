@@ -1,0 +1,2371 @@
+<java.util.Stack serialization="custom">
+  <unserializable-parents/>
+  <vector>
+    <default>
+      <capacityIncrement>0</capacityIncrement>
+      <elementCount>15</elementCount>
+      <elementData>
+        <model.commands.AddShapeCommand>
+          <shape>
+            <currentState class="model.Shapes.PCircle">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>46.200000000000045</double>
+                </entry>
+                <entry>
+                  <string>width</string>
+                  <double>476.79999999999995</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>-50.799999999999955</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>height</string>
+                  <double>476.79999999999995</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>0.0</double>
+                </entry>
+              </properties>
+              <backColor>
+                <red>1.0</red>
+                <green>0.4</green>
+                <blue>0.4</blue>
+                <opacity>1.0</opacity>
+                <platformPaint class="com.sun.prism.paint.Color">
+                  <type>COLOR</type>
+                  <proportional>false</proportional>
+                  <isMutable>false</isMutable>
+                  <argb>-39322</argb>
+                  <r>1.0</r>
+                  <g>0.4</g>
+                  <b>0.4</b>
+                  <a>1.0</a>
+                </platformPaint>
+              </backColor>
+              <strokeColor>
+                <red>1.0</red>
+                <green>0.6</green>
+                <blue>0.6</blue>
+                <opacity>1.0</opacity>
+                <platformPaint class="com.sun.prism.paint.Color">
+                  <type>COLOR</type>
+                  <proportional>false</proportional>
+                  <isMutable>false</isMutable>
+                  <argb>-26215</argb>
+                  <r>1.0</r>
+                  <g>0.6</g>
+                  <b>0.6</b>
+                  <a>1.0</a>
+                </platformPaint>
+              </strokeColor>
+            </currentState>
+            <name>Circle (1)</name>
+            <groupName></groupName>
+            <oldX>284.6</oldX>
+            <oldY>187.60000000000002</oldY>
+          </shape>
+          <memento>
+            <state/>
+          </memento>
+        </model.commands.AddShapeCommand>
+        <model.commands.AddShapeCommand>
+          <shape>
+            <currentState class="model.Shapes.PPentagon">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>767.0</double>
+                </entry>
+                <entry>
+                  <string>width</string>
+                  <double>184.0</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>193.2</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>height</string>
+                  <double>164.8</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>0.0</double>
+                </entry>
+              </properties>
+              <backColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+              <strokeColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+            </currentState>
+            <name>Pentagon (1)</name>
+            <groupName></groupName>
+            <oldX>767.0</oldX>
+            <oldY>193.2</oldY>
+          </shape>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.AddShapeCommand>
+        <model.commands.AddShapeCommand>
+          <shape>
+            <currentState class="model.Shapes.PHexagon">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>673.4</double>
+                </entry>
+                <entry>
+                  <string>width</string>
+                  <double>121.60000000000002</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>78.0</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>height</string>
+                  <double>152.8</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>0.0</double>
+                </entry>
+              </properties>
+              <backColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+              <strokeColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+            </currentState>
+            <name>Hexagon (1)</name>
+            <groupName></groupName>
+            <oldX>673.4</oldX>
+            <oldY>78.0</oldY>
+          </shape>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.AddShapeCommand>
+        <model.commands.AddShapeCommand>
+          <shape>
+            <currentState class="model.Shapes.PLine">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>558.2</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>132.39999999999998</double>
+                </entry>
+                <entry>
+                  <string>y2</string>
+                  <double>337.19999999999993</double>
+                </entry>
+                <entry>
+                  <string>x2</string>
+                  <double>671.0000000000001</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>5.418719622889175</double>
+                </entry>
+              </properties>
+              <backColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+              <strokeColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+            </currentState>
+            <name>Line (2)</name>
+            <groupName></groupName>
+            <oldX>558.2</oldX>
+            <oldY>132.39999999999998</oldY>
+          </shape>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.AddShapeCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape>
+            <currentState class="model.Shapes.PPentagon">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>767.0</double>
+                </entry>
+                <entry>
+                  <string>width</string>
+                  <double>184.0</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>193.2</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>height</string>
+                  <double>164.8</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>10.344824767465074</double>
+                </entry>
+              </properties>
+              <backColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+              <strokeColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+            </currentState>
+            <name>Pentagon (1)</name>
+            <groupName></groupName>
+            <oldX>767.0</oldX>
+            <oldY>193.2</oldY>
+          </shape>
+          <properties>
+            <entry>
+              <string>x</string>
+              <double>767.0</double>
+            </entry>
+            <entry>
+              <string>width</string>
+              <double>184.0</double>
+            </entry>
+            <entry>
+              <string>y</string>
+              <double>193.2</double>
+            </entry>
+            <entry>
+              <string>opacity</string>
+              <double>100.0</double>
+            </entry>
+            <entry>
+              <string>height</string>
+              <double>164.8</double>
+            </entry>
+            <entry>
+              <string>strokewidth</string>
+              <double>17.24137696139331</double>
+            </entry>
+          </properties>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>13.30049167125683</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape reference="../../model.commands.SetPropertiesCommand/shape"/>
+          <properties reference="../../model.commands.SetPropertiesCommand/shape/currentState/properties"/>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>17.24137696139331</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>13.30049167125683</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape>
+            <currentState class="model.Shapes.PCircle">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>46.200000000000045</double>
+                </entry>
+                <entry>
+                  <string>width</string>
+                  <double>476.79999999999995</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>-50.799999999999955</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>height</string>
+                  <double>476.79999999999995</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>18.719210413289186</double>
+                </entry>
+              </properties>
+              <backColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+              <strokeColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+            </currentState>
+            <name>Circle (1)</name>
+            <groupName></groupName>
+            <oldX>284.6</oldX>
+            <oldY>187.60000000000002</oldY>
+          </shape>
+          <properties reference="../shape/currentState/properties"/>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.344824767465074</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>13.30049167125683</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape reference="../../model.commands.AddShapeCommand[4]/shape"/>
+          <properties>
+            <entry>
+              <string>x</string>
+              <double>558.2</double>
+            </entry>
+            <entry>
+              <string>y</string>
+              <double>132.39999999999998</double>
+            </entry>
+            <entry>
+              <string>y2</string>
+              <double>337.19999999999993</double>
+            </entry>
+            <entry>
+              <string>x2</string>
+              <double>671.0000000000001</double>
+            </entry>
+            <entry>
+              <string>opacity</string>
+              <double>100.0</double>
+            </entry>
+            <entry>
+              <string>strokewidth</string>
+              <double>44.82758573710625</double>
+            </entry>
+          </properties>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>18.719210413289186</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.344824767465074</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>13.30049167125683</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape reference="../../model.commands.AddShapeCommand[4]/shape"/>
+          <properties>
+            <entry>
+              <string>x</string>
+              <double>558.2</double>
+            </entry>
+            <entry>
+              <string>y</string>
+              <double>132.39999999999998</double>
+            </entry>
+            <entry>
+              <string>y2</string>
+              <double>337.19999999999993</double>
+            </entry>
+            <entry>
+              <string>x2</string>
+              <double>671.0000000000001</double>
+            </entry>
+            <entry>
+              <string>opacity</string>
+              <double>100.0</double>
+            </entry>
+            <entry>
+              <string>strokewidth</string>
+              <double>8.374382122396835</double>
+            </entry>
+          </properties>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>18.719210413289186</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.344824767465074</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>44.82758573710625</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape reference="../../model.commands.AddShapeCommand[4]/shape"/>
+          <properties>
+            <entry>
+              <string>x</string>
+              <double>558.2</double>
+            </entry>
+            <entry>
+              <string>y</string>
+              <double>132.39999999999998</double>
+            </entry>
+            <entry>
+              <string>y2</string>
+              <double>337.19999999999993</double>
+            </entry>
+            <entry>
+              <string>x2</string>
+              <double>671.0000000000001</double>
+            </entry>
+            <entry>
+              <string>opacity</string>
+              <double>100.0</double>
+            </entry>
+            <entry>
+              <string>strokewidth</string>
+              <double>8.374382122396835</double>
+            </entry>
+          </properties>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>18.719210413289186</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.344824767465074</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>8.374382122396835</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape reference="../../model.commands.AddShapeCommand[4]/shape"/>
+          <properties>
+            <entry>
+              <string>x</string>
+              <double>558.2</double>
+            </entry>
+            <entry>
+              <string>y</string>
+              <double>132.39999999999998</double>
+            </entry>
+            <entry>
+              <string>y2</string>
+              <double>337.19999999999993</double>
+            </entry>
+            <entry>
+              <string>x2</string>
+              <double>671.0000000000001</double>
+            </entry>
+            <entry>
+              <string>opacity</string>
+              <double>100.0</double>
+            </entry>
+            <entry>
+              <string>strokewidth</string>
+              <double>0.0</double>
+            </entry>
+          </properties>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>18.719210413289186</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.344824767465074</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>8.374382122396835</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape reference="../../model.commands.AddShapeCommand[4]/shape"/>
+          <properties>
+            <entry>
+              <string>x</string>
+              <double>558.2</double>
+            </entry>
+            <entry>
+              <string>y</string>
+              <double>132.39999999999998</double>
+            </entry>
+            <entry>
+              <string>y2</string>
+              <double>337.19999999999993</double>
+            </entry>
+            <entry>
+              <string>x2</string>
+              <double>671.0000000000001</double>
+            </entry>
+            <entry>
+              <string>opacity</string>
+              <double>100.0</double>
+            </entry>
+            <entry>
+              <string>strokewidth</string>
+              <double>0.0</double>
+            </entry>
+          </properties>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>18.719210413289186</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.344824767465074</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape reference="../../model.commands.AddShapeCommand[4]/shape"/>
+          <properties>
+            <entry>
+              <string>x</string>
+              <double>558.2</double>
+            </entry>
+            <entry>
+              <string>y</string>
+              <double>132.39999999999998</double>
+            </entry>
+            <entry>
+              <string>y2</string>
+              <double>337.19999999999993</double>
+            </entry>
+            <entry>
+              <string>x2</string>
+              <double>671.0000000000001</double>
+            </entry>
+            <entry>
+              <string>opacity</string>
+              <double>100.0</double>
+            </entry>
+            <entry>
+              <string>strokewidth</string>
+              <double>5.418719622889175</double>
+            </entry>
+          </properties>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>18.719210413289186</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.344824767465074</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape reference="../../model.commands.AddShapeCommand[4]/shape"/>
+          <properties>
+            <entry>
+              <string>x</string>
+              <double>558.2</double>
+            </entry>
+            <entry>
+              <string>y</string>
+              <double>132.39999999999998</double>
+            </entry>
+            <entry>
+              <string>y2</string>
+              <double>337.19999999999993</double>
+            </entry>
+            <entry>
+              <string>x2</string>
+              <double>671.0000000000001</double>
+            </entry>
+            <entry>
+              <string>opacity</string>
+              <double>100.0</double>
+            </entry>
+            <entry>
+              <string>strokewidth</string>
+              <double>0.4926112485049393</double>
+            </entry>
+          </properties>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>18.719210413289186</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.344824767465074</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>5.418719622889175</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <model.commands.SetPropertiesCommand>
+          <shape reference="../../model.commands.AddShapeCommand[4]/shape"/>
+          <properties reference="../../model.commands.AddShapeCommand[4]/shape/currentState/properties"/>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>46.200000000000045</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-50.799999999999955</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>476.79999999999995</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>18.719210413289186</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>284.6</oldX>
+                <oldY>187.60000000000002</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PPentagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>767.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>184.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>193.2</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>164.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.344824767465074</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Pentagon (1)</name>
+                <groupName></groupName>
+                <oldX>767.0</oldX>
+                <oldY>193.2</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PHexagon">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>673.4</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>121.60000000000002</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>78.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>152.8</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.0</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Hexagon (1)</name>
+                <groupName></groupName>
+                <oldX>673.4</oldX>
+                <oldY>78.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PLine">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>558.2</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>132.39999999999998</double>
+                    </entry>
+                    <entry>
+                      <string>y2</string>
+                      <double>337.19999999999993</double>
+                    </entry>
+                    <entry>
+                      <string>x2</string>
+                      <double>671.0000000000001</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>0.4926112485049393</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Line (2)</name>
+                <groupName></groupName>
+                <oldX>558.2</oldX>
+                <oldY>132.39999999999998</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.SetPropertiesCommand>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+      </elementData>
+    </default>
+  </vector>
+</java.util.Stack>

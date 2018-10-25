@@ -1,0 +1,615 @@
+<java.util.Stack serialization="custom">
+  <unserializable-parents/>
+  <vector>
+    <default>
+      <capacityIncrement>0</capacityIncrement>
+      <elementCount>5</elementCount>
+      <elementData>
+        <model.commands.AddShapeCommand>
+          <shape>
+            <currentState class="model.Shapes.PCircle">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>383.0</double>
+                </entry>
+                <entry>
+                  <string>width</string>
+                  <double>228.0</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>-30.0</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>height</string>
+                  <double>228.0</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>10.429447852760736</double>
+                </entry>
+              </properties>
+              <backColor>
+                <red>0.8</red>
+                <green>0.5019608</green>
+                <blue>0.2</blue>
+                <opacity>1.0</opacity>
+                <platformPaint class="com.sun.prism.paint.Color">
+                  <type>COLOR</type>
+                  <proportional>false</proportional>
+                  <isMutable>false</isMutable>
+                  <argb>-3375053</argb>
+                  <r>0.8</r>
+                  <g>0.5019608</g>
+                  <b>0.2</b>
+                  <a>1.0</a>
+                </platformPaint>
+              </backColor>
+              <strokeColor>
+                <red>0.9019608</red>
+                <green>0.7019608</green>
+                <blue>0.9019608</blue>
+                <opacity>1.0</opacity>
+                <platformPaint class="com.sun.prism.paint.Color">
+                  <type>COLOR</type>
+                  <proportional>false</proportional>
+                  <isMutable>false</isMutable>
+                  <argb>-1657882</argb>
+                  <r>0.9019608</r>
+                  <g>0.7019608</g>
+                  <b>0.9019608</b>
+                  <a>1.0</a>
+                </platformPaint>
+              </strokeColor>
+            </currentState>
+            <name>Circle (1)</name>
+            <groupName></groupName>
+            <oldX>497.0</oldX>
+            <oldY>84.0</oldY>
+          </shape>
+          <memento>
+            <state/>
+          </memento>
+        </model.commands.AddShapeCommand>
+        <model.commands.AddShapeCommand>
+          <shape>
+            <currentState class="model.Shapes.PRectangle">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>685.0</double>
+                </entry>
+                <entry>
+                  <string>width</string>
+                  <double>278.0</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>187.0</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>height</string>
+                  <double>107.0</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>10.429447852760736</double>
+                </entry>
+              </properties>
+              <backColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+              <strokeColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+            </currentState>
+            <name>Rectangle (1)</name>
+            <groupName></groupName>
+            <oldX>685.0</oldX>
+            <oldY>187.0</oldY>
+          </shape>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>383.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>228.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-30.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>228.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.429447852760736</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>497.0</oldX>
+                <oldY>84.0</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.AddShapeCommand>
+        <model.commands.AddShapeCommand>
+          <shape>
+            <currentState class="model.Shapes.PTriangle">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>346.0</double>
+                </entry>
+                <entry>
+                  <string>width</string>
+                  <double>327.0</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>290.0</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>height</string>
+                  <double>150.0</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>10.429447852760736</double>
+                </entry>
+              </properties>
+              <backColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+              <strokeColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+            </currentState>
+            <name>Triangle (1)</name>
+            <groupName></groupName>
+            <oldX>346.0</oldX>
+            <oldY>290.0</oldY>
+          </shape>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>383.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>228.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-30.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>228.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.429447852760736</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>497.0</oldX>
+                <oldY>84.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PRectangle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>685.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>278.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>187.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>107.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.429447852760736</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Rectangle (1)</name>
+                <groupName></groupName>
+                <oldX>685.0</oldX>
+                <oldY>187.0</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.AddShapeCommand>
+        <model.commands.AddShapeCommand>
+          <shape>
+            <currentState class="model.Shapes.PTriangle">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>451.5</double>
+                </entry>
+                <entry>
+                  <string>width</string>
+                  <double>327.0</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>59.0</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>height</string>
+                  <double>150.0</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>10.429447852760736</double>
+                </entry>
+              </properties>
+              <backColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+              <strokeColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+            </currentState>
+            <name>Triangle (2)</name>
+            <groupName></groupName>
+            <oldX>346.0</oldX>
+            <oldY>290.0</oldY>
+          </shape>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>383.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>228.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-30.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>228.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.429447852760736</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>497.0</oldX>
+                <oldY>84.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PRectangle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>685.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>278.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>187.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>107.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.429447852760736</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Rectangle (1)</name>
+                <groupName></groupName>
+                <oldX>685.0</oldX>
+                <oldY>187.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PTriangle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>346.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>327.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>290.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>150.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.429447852760736</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Triangle (1)</name>
+                <groupName></groupName>
+                <oldX>346.0</oldX>
+                <oldY>290.0</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.AddShapeCommand>
+        <model.commands.AddShapeCommand>
+          <shape>
+            <currentState class="model.Shapes.PTriangle">
+              <properties>
+                <entry>
+                  <string>x</string>
+                  <double>366.0</double>
+                </entry>
+                <entry>
+                  <string>width</string>
+                  <double>559.0</double>
+                </entry>
+                <entry>
+                  <string>y</string>
+                  <double>310.0</double>
+                </entry>
+                <entry>
+                  <string>opacity</string>
+                  <double>100.0</double>
+                </entry>
+                <entry>
+                  <string>height</string>
+                  <double>177.0</double>
+                </entry>
+                <entry>
+                  <string>strokewidth</string>
+                  <double>10.429447852760736</double>
+                </entry>
+              </properties>
+              <backColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+              <strokeColor reference="../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+            </currentState>
+            <name>Triangle (3)</name>
+            <groupName></groupName>
+            <oldX>346.0</oldX>
+            <oldY>290.0</oldY>
+          </shape>
+          <memento>
+            <state>
+              <model.Shape>
+                <currentState class="model.Shapes.PCircle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>383.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>228.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>-30.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>228.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.429447852760736</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Circle (1)</name>
+                <groupName></groupName>
+                <oldX>497.0</oldX>
+                <oldY>84.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PRectangle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>685.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>278.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>187.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>107.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.429447852760736</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Rectangle (1)</name>
+                <groupName></groupName>
+                <oldX>685.0</oldX>
+                <oldY>187.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PTriangle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>346.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>327.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>290.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>150.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.429447852760736</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Triangle (1)</name>
+                <groupName></groupName>
+                <oldX>346.0</oldX>
+                <oldY>290.0</oldY>
+              </model.Shape>
+              <model.Shape>
+                <currentState class="model.Shapes.PTriangle">
+                  <properties>
+                    <entry>
+                      <string>x</string>
+                      <double>356.0</double>
+                    </entry>
+                    <entry>
+                      <string>width</string>
+                      <double>327.0</double>
+                    </entry>
+                    <entry>
+                      <string>y</string>
+                      <double>300.0</double>
+                    </entry>
+                    <entry>
+                      <string>opacity</string>
+                      <double>100.0</double>
+                    </entry>
+                    <entry>
+                      <string>height</string>
+                      <double>150.0</double>
+                    </entry>
+                    <entry>
+                      <string>strokewidth</string>
+                      <double>10.429447852760736</double>
+                    </entry>
+                  </properties>
+                  <backColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/backColor"/>
+                  <strokeColor reference="../../../../../../model.commands.AddShapeCommand/shape/currentState/strokeColor"/>
+                </currentState>
+                <name>Triangle (2)</name>
+                <groupName></groupName>
+                <oldX>346.0</oldX>
+                <oldY>290.0</oldY>
+              </model.Shape>
+            </state>
+          </memento>
+        </model.commands.AddShapeCommand>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+      </elementData>
+    </default>
+  </vector>
+</java.util.Stack>

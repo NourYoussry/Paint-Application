@@ -1,0 +1,21 @@
+<java.util.Stack serialization="custom">
+  <unserializable-parents/>
+  <vector>
+    <default>
+      <capacityIncrement>0</capacityIncrement>
+      <elementCount>0</elementCount>
+      <elementData>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+      </elementData>
+    </default>
+  </vector>
+</java.util.Stack>

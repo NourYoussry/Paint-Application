@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="MyPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="1500.0" stylesheets="@ res/css/StyleSample.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Line id="UpperLine" endY="645.0" layoutX="1200.0" layoutY="212.0" opacity="0.6" startY="-50.0" stroke="#c0c0c4" />
+      <Pane fx:id="ListPane" layoutX="1198.0" layoutY="161.0" prefHeight="694.0" prefWidth="297.0">
+         <children>
+            <TreeView fx:id="MyTreeView" layoutX="2.0" layoutY="200.0" onMouseClicked="#MyTreeView_Click" prefHeight="494.0" prefWidth="295.0" />
+            <Line endX="175.0" layoutX="120.0" layoutY="200.0" opacity="0.5" startX="-120.0" stroke="#c0c0c4" />
+            <HBox alignment="CENTER" layoutX="58.0" layoutY="59.0" prefHeight="34.0" prefWidth="188.0" spacing="10.0">
+               <children>
+                  <ToggleButton fx:id="CircleBTN" mnemonicParsing="false" onMouseClicked="#Toggle_Click" prefHeight="32.0" prefWidth="32.0" />
+                  <ToggleButton fx:id="TriangleBTN" mnemonicParsing="false" onMouseClicked="#Toggle_Click" prefHeight="32.0" prefWidth="32.0" />
+                  <ToggleButton fx:id="LineBTN" mnemonicParsing="false" onMouseClicked="#Toggle_Click" prefHeight="32.0" prefWidth="32.0" />
+                  <ToggleButton fx:id="EllipseBTN" mnemonicParsing="false" onMouseClicked="#Toggle_Click" prefHeight="32.0" prefWidth="32.0" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="52.0" layoutY="106.0" prefHeight="34.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <ToggleButton fx:id="SquareBTN" mnemonicParsing="false" onMouseClicked="#Toggle_Click" prefHeight="32.0" prefWidth="32.0" />
+                  <ToggleButton fx:id="RectangleBTN" layoutX="57.0" layoutY="55.0" mnemonicParsing="false" onMouseClicked="#Toggle_Click" prefHeight="32.0" prefWidth="32.0" />
+                  <ToggleButton fx:id="PentagonBTN" mnemonicParsing="false" onMouseClicked="#Toggle_Click" prefHeight="32.0" prefWidth="32.0" />
+                  <ToggleButton fx:id="PolygonBTN" mnemonicParsing="false" onMouseClicked="#Toggle_Click" prefHeight="32.0" prefWidth="32.0" />
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+      <Line id="UpperLine" endX="598.0" layoutX="897.0" layoutY="160.0" opacity="0.6" startX="-891.0" stroke="#c0c0c4" />
+      <Pane fx:id="MyToolsBar" layoutX="5.0" layoutY="88.0" prefHeight="73.0" prefWidth="1490.0">
+         <children>
+            <ColorPicker fx:id="MyBackColorPicker" layoutX="765.0" layoutY="23.0" onAction="#BackColorPicker_Action" prefHeight="25.0" prefWidth="28.0" />
+            <ColorPicker fx:id="MyStrokeColorPicker" layoutX="797.0" layoutY="23.0" onAction="#StrokeColorPicker_Action" prefHeight="25.0" prefWidth="28.0" />
+            <Slider fx:id="MyStrokeSlider" blockIncrement="1.0" layoutX="890.0" layoutY="22.0" onMouseReleased="#Slider_Release" prefHeight="29.0" prefWidth="188.0" />
+            <Button fx:id="StrockColor" layoutX="1083.0" layoutY="23.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" />
+            <Line endY="30.0" layoutX="853.0" layoutY="34.0" opacity="0.5" startY="-23.0" stroke="#c0c0c4" />
+            <HBox alignment="CENTER" layoutX="50.0" layoutY="20.0" prefHeight="32.0" prefWidth="123.0" spacing="10.0">
+               <children>
+                  <ToggleButton fx:id="MyMouseRadioBTN" mnemonicParsing="false" onMouseClicked="#Toggle_Click_My_Buttons" prefHeight="32.0" prefWidth="32.0" />
+                  <ToggleButton fx:id="MyHandRadioBTN" mnemonicParsing="false" onAction="#FocusGroup" onMouseClicked="#Toggle_Click_My_Buttons" prefHeight="32.0" prefWidth="32.0" />
+                  <ToggleButton fx:id="MySizeRadioBTN" mnemonicParsing="false" onMouseClicked="#Toggle_Click_My_Buttons" prefHeight="32.0" prefWidth="32.0" />
+               </children>
+            </HBox>
+            <Line endY="30.0" layoutX="190.0" layoutY="33.0" opacity="0.5" startY="-23.0" stroke="#c0c0c4" />
+            <HBox alignment="CENTER" layoutX="205.0" layoutY="21.0" prefHeight="32.0" prefWidth="83.0" spacing="10.0">
+               <children>
+                  <Button fx:id="DeleteBTN" mnemonicParsing="false" onMouseClicked="#Delete_Click" prefHeight="32.0" prefWidth="32.0" />
+                  <Button fx:id="CopyBTN" mnemonicParsing="false" onMouseClicked="#Clone_Click" prefHeight="31.0" prefWidth="32.0" />
+               </children>
+            </HBox>
+            <Line endY="30.0" layoutX="303.0" layoutY="33.0" opacity="0.5" startY="-23.0" stroke="#c0c0c4" />
+            <Button id="MyCreateGroup" layoutX="322.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#CreateGroup_Click" prefHeight="31.0" prefWidth="31.0" />
+            <HBox alignment="CENTER" layoutX="388.0" layoutY="20.0" prefHeight="32.0" prefWidth="83.0" spacing="10.0">
+               <children>
+                  <Button id="UndoBTN" mnemonicParsing="false" onMouseClicked="#undoClicked" prefHeight="32.0" prefWidth="32.0" />
+                  <Button id="RedoBTN" mnemonicParsing="false" onMouseClicked="#redoClicked" prefHeight="32.0" prefWidth="32.0" />
+               </children>
+            </HBox>
+            <Line endY="30.0" layoutX="371.0" layoutY="33.0" opacity="0.5" startY="-23.0" stroke="#c0c0c4" />
+         </children></Pane>
+      <Pane fx:id="MyTitle" layoutX="5.0" layoutY="5.0" prefHeight="83.0" prefWidth="1490.0">
+         <children>
+            <Button fx:id="fileBTN" layoutX="98.0" layoutY="1.0" mnemonicParsing="false" onMouseClicked="#TitleBTN_Click" prefHeight="81.0" prefWidth="55.0" styleClass="title" text="File" />
+            <Button fx:id="InsertBTN" layoutX="153.0" layoutY="1.0" mnemonicParsing="false" onMouseClicked="#TitleBTN_Click" prefHeight="81.0" prefWidth="70.0" styleClass="title" stylesheets="@ res/css/StyleSample.css" text="Insert" />
+            <Label layoutX="719.0" layoutY="31.0" text="Paint" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Medium" size="18.0" />
+               </font>
+            </Label>
+            <Pane fx:id="BarPane" layoutX="1391.0" layoutY="22.0" prefHeight="38.0" prefWidth="69.0">
+               <children>
+                  <Button fx:id="CloseBTN" layoutX="42.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#handle" prefHeight="15.0" prefWidth="15.0" />
+                  <Button fx:id="MiniButton" layoutX="12.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#handle" prefHeight="15.0" prefWidth="15.0" />
+               </children>
+            </Pane>
+         </children></Pane>
+      <Pane fx:id="CanvasPane" layoutX="58.0" layoutY="206.0" prefHeight="603.0" prefWidth="1071.0" style="-fx-background-color: white;">
+         <children>
+            <Canvas fx:id="MyCanvas" height="603.0" layoutX="-1.0" onKeyPressed="#MyPane_Press" onMouseDragged="#MyCanvas_Drag" onMousePressed="#MyCanvas_Press" onMouseReleased="#MyCanvas_Release" width="1072.0" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

@@ -1,0 +1,338 @@
+#MyPane{
+    -fx-font-family: "Roboto Medium";
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0.5, 0.0, 0.0);
+    -fx-background-insets: 5;
+    -fx-border-insets: 5;
+    -fx-background-radius: 0;
+    -fx-background-color: #f6f6f6;
+}
+
+#MyTitle{
+    -fx-background-color: #3e82f7;
+}
+
+#MyToolsBar{
+    -fx-background-color: white;
+}
+
+.button.title{
+    -fx-background-color: #3e82f7;
+    -fx-text-fill: white;
+    -fx-font-size: 18;
+    -fx-font-family: "Roboto";
+}
+
+.button.title:hover{
+    -fx-background-color: white;
+    -fx-text-fill: #3e82f7;
+}
+
+/*-----------------------*/
+
+#CloseBTN{
+    -fx-background-radius: 40;
+    -fx-border-radius: 40;
+    -fx-background-color: #ff534f;
+}
+#CloseBTN:hover{
+    -fx-background-color: white;
+    -fx-border-color: #ff534f;
+    -fx-border-width: 2;
+}
+
+#MiniButton{
+    -fx-background-radius: 40;
+    -fx-border-radius: 40;
+    -fx-background-color: #00d019;
+}
+#MiniButton:hover{
+    -fx-background-color: white;
+    -fx-border-color: #00d019;
+    -fx-border-width: 2;
+}
+
+/*-----------------------*/
+
+.slider .track {
+    -fx-pref-height:4;
+    -fx-background-color: #dfdada;
+}
+
+.slider:vertical .track {
+    -fx-pref-width:4;
+}
+
+.slider .thumb {
+    -fx-pref-height: 25;
+    -fx-pref-width: 25;
+    -fx-background-color: #c4c0c0;
+
+}
+
+.slider .thumb:hover{
+    -fx-pref-height: 25;
+    -fx-pref-width: 25;
+    -fx-background-color: #3e82f7;
+
+}
+
+/*-----------------------*/
+
+.context-menu {
+
+    -fx-background-color: white;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0.5, 0.0, 0.0);
+
+}
+
+.menu-item:focused {
+    -fx-background-color: #f5f7fa;
+}
+
+.menu-item > .label {
+    -fx-text-fill: #808fa3;
+}
+
+/*-----------------------*/
+
+#ListPane{
+    -fx-background-color: white;
+}
+
+#BarPane{
+    -fx-background-radius: 200;
+    -fx-border-radius: 200;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.05), 10, 0.5, 0.0, 0.0);
+    -fx-border-width: 2;
+}
+
+#CanvasPane{
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.05), 10, 0.5, 0.0, 0.0);
+}
+
+#closeBTN:hover{
+    -fx-cursor: hand;
+}
+#minBTN:hover{
+    -fx-cursor: hand;
+}
+#MyCanvas:hover{
+    -fx-cursor: crosshair;
+}
+#MainColor{
+    -fx-background-color: red;
+    -fx-border-width: 1;
+    -fx-background-radius: 0;
+}
+
+
+.tree-view{
+    -fx-border-radius: 0;
+    -fx-border-color: white;
+    -fx-font-weight: bold;
+}
+.tree-view:focused{
+    -fx-background-color: transparent,-fx-box-border,-fx-control-inner-background;
+    -fx-background-insets: -1.4, 0, 1;
+    -fx-background-radius: 1.4, 0, 0;
+    -fx-padding: 1;
+
+}
+.tree-cell {
+    -fx-text-fill: #c4c0c0;
+}
+.tree-view:focused .tree-cell:filled:selected {
+    -fx-background-color:#c4c0c0;
+    -fx-text-fill:white;
+}
+
+.tree-cell:filled:selected{
+    -fx-background-color:#c4c0c0;
+    -fx-text-fill:white;
+}
+
+.color-picker{
+    -fx-background-color: white;
+}
+.menu-bar{
+    -fx-background-color:#3e82f7;
+    -fx-font-size: 21;
+    -fx-text-fill:white;
+
+}
+
+.menu .label
+{
+    -fx-text-fill: white;
+}
+.button{
+    -fx-background-color: white;
+    -fx-background-radius: 0;
+}
+.toggle-button{
+    -fx-background-color: white;
+    -fx-background-radius: 0;
+}
+#MyMouseRadioBTN{
+    -fx-background-image: url("/view/res/img/cursor-default-outline.png");
+}
+
+#MyMouseRadioBTN:hover{
+    -fx-background-image: url("/view/res/img/cursor-default-outlineH.png");
+}
+#MyMouseRadioBTN:selected{
+    -fx-background-image: url("/view/res/img/cursor-default-outlineH.png");
+}
+#MyHandRadioBTN{
+    -fx-background-image: url("/view/res/img/cursor-move.png");
+}
+#MyHandRadioBTN:hover{
+    -fx-background-image: url("/view/res/img/cursor-moveH.png");
+}
+#MyHandRadioBTN:selected{
+    -fx-background-image: url("/view/res/img/cursor-moveH.png");
+}
+#MySizeRadioBTN{
+    -fx-background-image: url("/view/res/img/move-resize-variant.png");
+}
+#MySizeRadioBTN:hover{
+    -fx-background-image: url("/view/res/img/move-resize-variantH.png");
+}
+#MySizeRadioBTN:selected{
+    -fx-background-image: url("/view/res/img/move-resize-variantH.png");
+}
+#CopyBTN{
+    -fx-background-image: url("/view/res/img/content-copy.png");
+}
+#CopyBTN:hover{
+    -fx-background-image: url("/view/res/img/content-copyH.png");
+}
+#CopyBTN:selected{
+    -fx-background-image: url("/view/res/img/content-copyH.png");
+}
+#DeleteBTN{
+    -fx-background-image: url("/view/res/img/delete.png");
+}
+#DeleteBTN:hover{
+    -fx-background-image: url("/view/res/img/deleteH.png");
+}
+#DeleteBTN:selected{
+    -fx-background-image: url("/view/res/img/deleteH.png");
+}
+#CircleBTN{
+    -fx-background-image: url("/view/res/img/vector-circle-variant.png");
+}
+#CircleBTN:hover{
+    -fx-background-image: url("/view/res/img/vector-circle-variantH.png");
+}
+#CircleBTN:selected{
+    -fx-background-image: url("/view/res/img/vector-circle-variantH.png");
+}
+#EllipseBTN{
+    -fx-background-image: url("/view/res/img/vector-circle.png");
+}
+#EllipseBTN:hover{
+    -fx-background-image: url("/view/res/img/vector-circleH.png");
+}
+#EllipseBTN:selected{
+    -fx-background-image: url("/view/res/img/vector-circleH.png");
+}
+#TriangleBTN{
+    -fx-background-image: url("/view/res/img/vector-triangle.png");
+}
+#TriangleBTN:hover{
+    -fx-background-image: url("/view/res/img/vector-triangleH.png");
+}
+#TriangleBTN:selected{
+    -fx-background-image: url("/view/res/img/vector-triangleH.png");
+}
+#PolygonBTN{
+    -fx-background-image: url("/view/res/img/hexagon-outline.png");
+}
+#PolygonBTN:hover{
+    -fx-background-image: url("/view/res/img/hexagon-outlineH.png");
+}
+#PolygonBTN:selected{
+    -fx-background-image: url("/view/res/img/hexagon-outlineH.png");
+}
+#PentagonBTN{
+    -fx-background-image: url("/view/res/img/pentagon-outline.png");
+}
+#PentagonBTN:hover{
+    -fx-background-image: url("/view/res/img/pentagon-outlineH.png");
+}
+#PentagonBTN:selected{
+    -fx-background-image: url("/view/res/img/pentagon-outlineH.png");
+}
+#SquareBTN{
+    -fx-background-image: url("/view/res/img/vector-square.png");
+}
+#SquareBTN:hover{
+    -fx-background-image: url("/view/res/img/vector-squareH.png");
+}
+#SquareBTN:selected{
+    -fx-background-image: url("/view/res/img/vector-squareH.png");
+}
+#RectangleBTN{
+    -fx-background-image: url("/view/res/img/vector-rectangle.png");
+}
+#RectangleBTN:hover{
+    -fx-background-image: url("/view/res/img/vector-rectangleH.png");
+}
+#RectangleBTN:selected{
+    -fx-background-image: url("/view/res/img/vector-rectangleH.png");
+}
+#LineBTN{
+    -fx-background-image: url("/view/res/img/vector-line.png");
+}
+#LineBTN:hover{
+    -fx-background-image: url("/view/res/img/vector-lineH.png");
+}
+#LineBTN:selected{
+    -fx-background-image: url("/view/res/img/vector-lineH.png");
+}
+#MyCreateGroup{
+    -fx-background-image: url("/view/res/img/group.png");
+}
+#MyCreateGroup:hover{
+    -fx-background-image: url("/view/res/img/groupH.png");
+}
+#MyCreateGroup:selected{
+    -fx-background-image: url("/view/res/img/groupH.png");
+}
+#BackColor{
+    -fx-background-image: url("/view/res/img/square.png");
+}
+#StrockColor{
+    -fx-background-image: url("/view/res/img/square-outline.png");
+}
+#Pallete{
+    -fx-background-image: url("/view/res/img/palette.png");
+}
+#Pallete2{
+    -fx-background-image: url("/view/res/img/palette.png");
+}
+#UpperLine{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+
+}
+#UndoBTN{
+    -fx-background-image: url("/view/res/img/undo.png");
+}
+#UndoBTN:hover{
+    -fx-background-image: url("/view/res/img/undoH.png");
+}
+#UndoBTN:selected{
+    -fx-background-image: url("/view/res/img/undoH.png");
+}
+#RedoBTN{
+    -fx-background-image: url("/view/res/img/redo.png");
+}
+#RedoBTN:hover{
+    -fx-background-image: url("/view/res/img/redoH.png");
+}
+#RedoBTN:selected{
+    -fx-background-image: url("/view/res/img/redoH.png");
+}
